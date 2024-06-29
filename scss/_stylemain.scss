@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 20rem;
+    overflow-x: hidden;
+    background: linear-gradient(to bottom,
+     $white 75%, 
+     $cream 75%,
+     $cream 100%);
+}
+
+header, main, footer {
+    width: 90%;
+    max-width: 75rem; 
+    margin-inline: auto;
+}
+

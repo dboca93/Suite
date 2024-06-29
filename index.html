@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/dist/css/main.css">
+
+  <title>suite</title>
+</head>
+
+
+<body>
+  <header>
+    <a href="index.html" aria-label="Link to Home Page">
+      <img src="assets/logo.svg" 
+      width="79" 
+      height="26" 
+      alt="Suite Logo">
+    </a>
+    <a href="#" class="req__beta">
+      Request Beta Access
+    </a>
+  </header>
+  <main>
+    <!--create three divs within a grid container -->
+    <section class="alpha__hero">
+      <!--area one -->
+      <article class="alpha__hero__one" id="art">
+        <div class="img__header">
+          <img src="assets/pattern-curved-line-1.svg" 
+          alt="curvedline" 
+          class="curved" 
+          width="287" 
+          height="36">
+          <h1 id="blue">
+            A <strong>super solution</strong>
+            for your <strong>business.</strong>
+          </h1>
+
+        </div>
+
+        <p>Our marketing and sales automations
+          help you scale your outreach to get more
+          leads into your company.
+        </p>
+        <a href="#" class="alpha__link">
+          Request Beta Access
+        </a>
+      </article>
+      <!--area two -->
+      <picture>
+        <!-- For large screens (portrait orientation) -->
+        <source srcset="assets/image-hero-portrait@2x.webp 2x, assets/image-hero-portrait.webp 1x" type="image/webp"
+          media="(min-width: 480px)">
+        <source srcset="assets/image-hero-portrait@2x.png 2x, assets/image-hero-portrait.png 1x" type="image/png"
+          media="(min-width: 480px)">
+
+        <!-- For small screens (landscape orientation) -->
+        <source srcset="assets/image-hero-landscape@2x.webp 2x, assets/image-hero-landscape.webp 1x" type="image/webp"
+          media="(max-width: 479px)">
+        <source srcset="assets/image-hero-landscape@2x.png 2x, assets/image-hero-landscape.png 1x" type="image/png"
+          media="(max-width: 479px)">
+        <!-- Fallback image -->
+        <img src="assets/image-hero-landscape.png" 
+        width="350" 
+        height="600" 
+        alt="Smart Phone Illustration">
+      </picture>
+
+      <!--area three -->
+      <article class="three__line">
+
+        <div class="category__one cat">
+          <h2 class="three__line__a head">2K+</h2>
+          <h3 class="three__line__sub__a feet">Companies</h3>
+        </div>
+
+        <div class="category__two cat">
+          <h2 class="three__line__b head">8</h2>
+          <h3 class="three__line__sub__b feet">Languages</h3>
+        </div>
+
+        <div class="category__three cat">
+          <h2 class="three__line__c head">1.2M</h2>
+          <h3 class="three__line__sub__c feet">Leads</h3>
+        </div>
+
+      </article>
+
+    </section>
+
+    <section class="beta__main" id="beta__m">
+      <!--grid area one-->
+      <picture>
+        <!-- For large screens (portrait orientation) -->
+        <source srcset="assets/image-jeremy-large@2x.webp 2x, assets/image-jeremy-large.webp 1x" type="image/webp"
+          media="(min-width: 880px)">
+        <source srcset="assets/image-jeremy-large@2x.png 2x, assets/image-jeremy-large.png 1x" type="image/png"
+          media="(min-width: 880px)">
+
+        <!-- For small screens (landscape orientation) -->
+        <source srcset="assets/image-jeremy-small@2x.webp 2x, assets/image-jeremy-small.webp 1x" type="image/webp"
+          media="(max-width: 879px)">
+        <source srcset="assets/image-jeremy-small@2x.png 2x, assets/image-jeremy-small.png 1x" type="image/png"
+          media="(max-width: 879px)">
+        <!-- Fallback image -->
+        <img src="assets/image-jeremy-large.png" width="361" height="590" alt="Jeremy on his phone">
+      </picture>
+      <!--grid area two-->
+      <img 
+      loading="lazy"
+      class="curveball" 
+      src="assets/pattern-curved-line-2.svg" 
+      width="64" 
+      height="52" 
+      alt="Small curved line">
+      <!--grid area three-->
+
+      <article class="beta__art">
+        <h3>
+          It just
+          <span>works.</span>
+        </h3>
+        <p>
+          "I really like how it's an
+          all-in-one solution that can handle
+          many of the tasks that you would
+          normally need separate tools
+          in order to do the same job. This thing
+          is a miracle worker."
+        </p>
+
+        <h4>Jeremy Robinson</h4>
+        <p>CMO, FYLO</p>
+      </article>
+    </section>
+
+  </main>
+  <footer id="foot">
+    <a href="index.html" aria-label="Link to Home Page" class="bottom__logo">
+      <img
+      loading="lazy"
+      src="assets/logo.svg" 
+      width="79" 
+      height="26" 
+      alt="Suite Logo"
+      >
+    </a>
+
+    <p>Copyright - Suite</p>
+
+    <nav class="social__links">
+      <ul>
+        <li>
+          <a href="#"
+          aria-label="Facebook"
+          >
+            <img 
+            loading="lazy"
+            src="assets/icon-facebook.svg" 
+            width="20" 
+            height="20" 
+            alt="Facebook Logo">
+          </a>
+        </li>
+        <li>
+          <a href="#"
+          aria-label="Twitter"
+          >
+            <img 
+            loading="lazy"
+            src="assets/icon-twitter.svg" 
+            width="20" 
+            height="20" 
+            alt="Twitter Logo">
+          </a>
+        </li>
+        <li>
+          <a href="#"
+          aria-label="Instagram"
+          >
+            <img 
+            src="assets/icon-instagram.svg" 
+            width="20" 
+            height="20" 
+            alt="Instagram"
+            loading="lazy"
+            >
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  </footer>
+</body>
+
+
+</html>

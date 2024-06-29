@@ -1,0 +1,25 @@
+header {
+    min-height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3125rem 0.125rem; 
+    margin-bottom: calc(0.625rem + 5vw);
+
+    .req__beta {
+        outline: 0.0625rem solid $navy; 
+        padding: 0.875rem 1rem 0.8125rem 1rem; 
+        border-radius: 0.1563rem;
+        font-family: "Epilogue", sans-serif;
+        font-size: 0.8125rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: #172339; 
+
+        &:hover {
+            background-color: #172339; 
+            cursor: pointer;
+            color: #FAF8F6; 
+        }
+    }
+}

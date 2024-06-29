@@ -1,0 +1,50 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  height: 9vh;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $cream;
+  width: 90%;
+  max-width: 75rem;
+  margin-inline: auto;
+
+  p {
+    font-family: $font;
+    color: $navy;
+    font-size: clamp(0.6875rem, 3vw, 1rem);
+    margin-top: 0.625rem;
+  }
+
+  :is(a, nav) {
+    min-width: 4.0625rem;
+  }
+
+  a {
+    width: 15%;
+  }
+
+  nav {
+    width: 15%; 
+
+    ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+      li {
+        display: inline-block;
+
+        a:hover {
+          img {
+            scale: 1.1;
+          }
+        }
+      }
+
+      :nth-child(2) {
+        margin: 0 15%;
+      }
+    }
+  }
+}
