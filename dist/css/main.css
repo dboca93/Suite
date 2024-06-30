@@ -214,9 +214,9 @@ header, main, footer {
   }
   #beta__m {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto minmax(220px, 340px);
-    -moz-column-gap: 5px;
-         column-gap: 5px;
+    grid-template-rows: 1fr auto minmax(13.75rem, 21.25rem);
+    -moz-column-gap: 0.3125rem;
+         column-gap: 0.3125rem;
   }
   #beta__m picture {
     align-items: center;
@@ -310,8 +310,8 @@ header, main, footer {
   }
   #foot {
     flex-direction: column;
-    height: calc(50px + 9vh);
-    padding: 10px 0;
+    height: calc(3.125rem + 9vh);
+    padding: 0.625rem 0;
   }
 }
 .beta__main {
